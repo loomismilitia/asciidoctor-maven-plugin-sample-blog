@@ -1,0 +1,12 @@
+= Asciidoctor Sample Blog
+Asciidoctor Sample Blog
+
+== First blog post
+*2014-09-05* +
+include::posts/post1.adoc[tag=summary]
+link:post1.html[Read more]
+
+== Second blog post
+*2014-09-06* +
+include::posts/post2.adoc[tag=summary]
+link:post2.html[Read more]
