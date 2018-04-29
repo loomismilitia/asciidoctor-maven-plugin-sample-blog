@@ -111,6 +111,16 @@
                             IMPORTANT: When you enable image embedding, you must qualify the path the the imagesdir, as shown above.
                             -->
                             <attributes>
+
+                                <!-- START - Disable remote web font -->
+                                <!-- Alternatively the following ascii doc tags can be used instead -->
+                                <!--:webfonts!:-->
+                                <!--:iconfont-remote!:-->
+                                <webfonts>false</webfonts>
+                                <iconfont-remote>false</iconfont-remote>
+                                <iconfont-name>resources/font-awesome-5.0.10/css/font-awesome</iconfont-name>
+                                <!-- END - Disable remote web font -->
+
                                 <!--<imagesdir>./images</imagesdir>-->
                                 <!--<toc>left</toc>-->
                                 <icons>font</icons>
