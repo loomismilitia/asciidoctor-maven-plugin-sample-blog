@@ -1,0 +1,29 @@
+{
+  "name": "asciidoctor-maven-plugin-sample-blog",
+  "description": "Asciidoctor sample blog with maven plugin",
+  "main": "target/generated-docs/index.html",
+  "authors": [
+    "simon loomis suiçmez"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "asciidoc",
+    "blog",
+    "html",
+    "maven"
+  ],
+  "homepage": "https://github.com/loomismilitia/asciidoctor-maven-plugin-sample-blog",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "fontawesome": "^5.0.11"
+  }
+}

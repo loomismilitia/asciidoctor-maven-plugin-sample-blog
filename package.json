@@ -1,0 +1,32 @@
+{
+  "name": "asciidoctor-maven-plugin-sample-blog",
+  "version": "1.0.0",
+  "description": "Asciidoctor sample blog with maven plugin",
+  "main": "target/generated-docs/index.html",
+  "scripts": {
+    "postinstall": "bower install",
+    "update-deps": "npm update",
+    "postupdate-deps": "bower update",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loomismilitia/asciidoctor-maven-plugin-sample-blog.git"
+  },
+  "keywords": [
+    "asciidoc",
+    "blog",
+    "html",
+    "maven"
+  ],
+  "author": "simon loomis suiçmez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loomismilitia/asciidoctor-maven-plugin-sample-blog/issues"
+  },
+  "homepage": "https://github.com/loomismilitia/asciidoctor-maven-plugin-sample-blog#readme",
+  "devDependencies": {
+    "bower": "^1.8.4",
+    "gulp": "^3.9.1"
+  }
+}

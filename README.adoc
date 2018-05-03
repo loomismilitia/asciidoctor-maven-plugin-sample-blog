@@ -4,6 +4,14 @@ A sample project that demonstrates how to convert AsciiDoc to HTML5 using the As
 
 == Usage
 
+Install required npm modules and bower components to be included in the asciidoc blog:
+
+ $ npm install
+
+Run gulp command to copy required _HTML_ and _Javascript_ components to blog `vendor` resources folder
+
+ $ gulp
+
 Convert the AsciiDoc to HTML5 by invoking the `process-resources` goal (configured as the default goal):
 
  $ mvn
