@@ -60,6 +60,15 @@
                         </goals>
                         <configuration>
                             <backend>html5</backend>
+                            <doctype>book</doctype>
+
+                            <!-- Enables to specify whether the documents should be rendered in the same folder structure
+                                        as in the source directory or not, defaults to false. When true, instead of generating
+                                        all output in a single folder, output files are generated in the same structure. -->
+                            <preserveDirectories>true</preserveDirectories>
+                            <!--<relativeBaseDir>true</relativeBaseDir>-->
+
+
                             <!-- Use coderay source highlighter to provide source code highlighting -->
                             <!--<sourceHighlighter>coderay</sourceHighlighter>-->
 
@@ -68,21 +77,24 @@
                                 <!-- ######################### -->
                                 <!-- enable font awesome icons -->
                                 <!-- ######################### -->
-                                <icons>font</icons>
+                                <!--<icons>font</icons>-->
                                 <!-- START - Disable remote web font awesome -->
                                 <!-- Alternatively the following ascii doc tags can be used instead -->
                                 <!--:webfonts!:-->
                                 <!--:iconfont-remote!:-->
-                                <webfonts>false</webfonts>
-                                <iconfont-remote>false</iconfont-remote>
-                                <iconfont-name>vendor/fontawesome/fontawesome-all.min</iconfont-name>
+                                <!--<webfonts>false</webfonts>-->
+                                <!--<iconfont-remote>false</iconfont-remote>-->
+                                <!--<iconfont-name>vendor/fontawesome/fontawesome-all.min</iconfont-name>-->
                                 <!-- END - Disable remote web font -->
 
 
                                 <!-- Link to an external css file rather than embedding style information in the generated html -->
-                                <linkcss>true</linkcss>
+                                <!--<linkcss>true</linkcss>-->
                                 <!--<stylesDir>css</stylesDir>-->
-                                <stylesheet>css/sample-blog.css</stylesheet>
+                                <!--<stylesheet>css/sample-blog.css</stylesheet>-->
+                                <!--  NOTE: The property :stylesheet!: is defined in index.adoc to disable stylesheets.
+                                 They will be defined manually on docinfo.html file -->
+
 
                                 <!--<imagesdir>./images</imagesdir>-->
                                 <!--<toc>left</toc>-->

@@ -1,11 +1,17 @@
-= Second post
+// disables stylesheets
+:stylesheet!:
+:icons!:
+
+include::nav-bar.adoc[]
+
+= First post
 
 // tag::summary[]
 Now a short paragraph to represent a summary or abstract of our blog post, which we'll
 use later for our blog post list page.
 // end::summary[]
 
-== Second post real section
+== First post real section
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a magna id augue tristique ullamcorper.
 Morbi eu lacus mollis, auctor libero nec, convallis lorem. Morbi gravida consequat ante eget mattis.
