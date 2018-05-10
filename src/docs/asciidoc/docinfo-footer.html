@@ -8,3 +8,16 @@
 <script src="vendor/jquery/jquery.js"></script>
 <script src="vendor/popper.js/popper.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+<script>
+    // apply bootstrap css classes
+    $("#content").addClass("container");
+    $(".sect0").addClass("my-4");
+
+    // apply only in the main page
+    $("#main-title").parent().find(".sect1").addClass("card my-4 card-body");
+
+    // footer styles
+    $("#footer").addClass("py-4 bg-dark sticky-footer");
+    $("#footer-text").addClass("container text-white");
+</script>

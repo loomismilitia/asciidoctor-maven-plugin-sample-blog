@@ -4,6 +4,8 @@
 
 include::nav-bar.adoc[]
 
+// just to add an id to the main title. Needed for css styling located docinfo-footer.html
+[#main-title]
 = Asciidoctor Sample Blog
 Asciidoctor Sample Blog
 
